@@ -4,34 +4,35 @@ import Button from "@/components/button/button";
 import Container from "@/components/container/container";
 import Input from "@/components/input/input";
 import Navigate from "@/hooks/navigate";
+import { registerStudent } from "@/utils/student";
 
 export default function Register() {
   return (
     <main>
       <Container width={"450px"} title={"Register"}>
-        <form className="column">
+        <form action={registerStudent} className="column">
           <div className="row">
             <Input 
-              id="firstName" 
+              name="firstName" 
               type="text" 
               placeholder="First Name"
             />
 
             <Input 
-              id="lastName" 
+              name="lastName" 
               type="text" 
               placeholder="Last Name"
             />
           </div>
 
           <Input 
-            id="email" 
+            name="email" 
             type="email" 
             placeholder="Email"
           />
 
           <Input 
-            id="password" 
+            name="password" 
             type="password" 
             placeholder="Password"
           />

@@ -2,17 +2,17 @@ import { ChangeEvent } from "react";
 import "./input.css";
 
 interface InputProps {
-  id: string;
+  name: string;
   type: string;
   value?: string;
   placeholder: string;
   onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
-const Input = ({id, type, value, placeholder, onChange}: InputProps) => {
+const Input = ({name, type, value, placeholder, onChange}: InputProps) => {
   return (
     <input 
-      id={id}
+      name={name}
       type={type} 
       value={value}
       placeholder={placeholder}
