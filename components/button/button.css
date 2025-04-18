@@ -3,6 +3,7 @@
 .default {
   @apply
     flex
+    justify-center
     items-center
     px-4
     py-2

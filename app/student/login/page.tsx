@@ -28,12 +28,17 @@ export default function Login() {
             </span>
 
             <Button 
+              type="button"
               onClick={Navigate("/student/register")}
               style="underlined"
             >
               Sign Up
             </Button>
           </div>
+
+          <Button type="submit">
+            Log In
+          </Button>
         </form>
       </Container>
     </main>
