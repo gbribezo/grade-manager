@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.container-center {
+  @apply 
+    flex 
+    justify-center 
+    items-center 
+    w-full 
+    h-screen
+}
+
+.container-style {
+  @apply 
+    p-8
+    border-[1px] 
+    border-neutral-300 
+    font-medium 
+    rounded-lg 
+}
+
+.container-title {
+  @apply 
+    flex 
+    justify-center 
+    text-2xl
+    font-semibold
+    mb-8
+}

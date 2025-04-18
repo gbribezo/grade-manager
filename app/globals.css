@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.html {
+  @apply
+    overflow-x-hidden
+    overflow-y-hidden
+}
+
+.page {
+  @apply
+    px-20
+    py-5
+    font-medium
+}
+
+.center {
+  @apply
+    flex
+    justify-center
+    items-center
+}
+
+.column {
+  @apply
+    flex
+    flex-col
+    gap-5
+}
+
+.row {
+  @apply
+    flex
+    flex-row
+    gap-2
+}

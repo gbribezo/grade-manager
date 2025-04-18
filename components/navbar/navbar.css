@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.navbar {
+  @apply 
+    flex 
+    justify-between 
+    items-center 
+    px-10 
+    py-2 
+    border-[1px] 
+    border-neutral-300 
+    text-neutral-900
+    font-medium
+}
+
+.half {
+  @apply 
+    flex 
+    w-1/2 
+    justify-center 
+    font-semibold
+}
